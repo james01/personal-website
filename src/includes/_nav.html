@@ -1,0 +1,29 @@
+<nav class="nav" role="navigation">
+  <!-- Menu Toggle Button -->
+  <button class="nav__toggle" aria-expanded="false" aria-label="Toggle Menu">
+    <span class="nav__toggle__bread nav__toggle__bread--top">
+      <span class="nav__toggle__bread-crust nav__toggle__bread-crust--top"></span>
+    </span>
+    <span class="nav__toggle__bread nav__toggle__bread--bottom">
+      <span class="nav__toggle__bread-crust nav__toggle__bread-crust--bottom"></span>
+    </span>
+  </button>
+
+  <!-- Nav Links -->
+  <ul class="nav__menu">
+    {% for item in navigation %}
+    <li class="nav__item {% if page.inputPath contains item.folder %}nav__item--active{% endif %}">
+      <a href="{{ item.url }}" class="nav__link">{{ item.label }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
+<script type="text/javascript">
+  const html = document.querySelector("html");
+  const nav = document.querySelector(".nav");
+  const navToggle = document.querySelector(".nav__toggle");
+  navToggle.addEventListener("click", () => {
+    html.classList.toggle("no-scroll");
+    nav.classList.toggle("nav--open");
+  });
+</script>

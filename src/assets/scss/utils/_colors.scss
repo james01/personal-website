@@ -1,0 +1,15 @@
+:root {
+  --color-bg: #fff;
+  --color-secondary-bg: #f7f7f9;
+
+  --color-label: #373a3c;
+  --color-secondary-label: #818a91;
+
+  @media (prefers-color-scheme: dark) {
+    --color-bg: #0d1116;
+    --color-secondary-bg: #161b22;
+
+    --color-label: #fff;
+    --color-secondary-label: #8b949e;
+  }
+}

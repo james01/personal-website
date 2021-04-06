@@ -1,0 +1,33 @@
+$breakpoints: (
+  sm: 600px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+@function breakpoint-min($name, $breakpoints) {
+  $min: map-get($breakpoints, $name);
+  @return if($min != 0, $min, null);
+}
+
+@mixin above($name) {
+  $min: breakpoint-min($name, $breakpoints);
+  @if $min {
+    @media (min-width: $min) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin below($name) {
+  $min: breakpoint-min($name, $breakpoints);
+  @if $min {
+    @media (max-width: ($min - 1px)) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}

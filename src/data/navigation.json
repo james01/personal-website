@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Work",
+    "folder": "work",
+    "url": "/"
+  },
+  {
+    "label": "Resume",
+    "folder": "resume",
+    "url": "/resume/"
+  },
+  {
+    "label": "Bookshelf",
+    "folder": "bookshelf",
+    "url": "/bookshelf/"
+  }
+]

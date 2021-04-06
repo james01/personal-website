@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ meta.lang }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>{{ meta.title }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}" />
+    {% include _meta.html %}
+  </head>
+  <body>
+    <div class="layout" role="document">
+      {% include _header.html %}
+      <main id="main" class="main pad-viewport" tabindex="-1">{{ content | safe }}</main>
+      {% include _footer.html %}
+    </div>
+  </body>
+</html>

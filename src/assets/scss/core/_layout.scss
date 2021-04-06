@@ -1,0 +1,36 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+
+  .main {
+    flex: 1 0 auto;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.pad-viewport {
+  $pad: 5%;
+  padding-left: $pad;
+  padding-right: $pad;
+
+  @supports (padding: max(0px)) {
+    padding-left: max(#{$pad}, env(safe-area-inset-left));
+    padding-right: max(#{$pad}, env(safe-area-inset-right));
+  }
+}

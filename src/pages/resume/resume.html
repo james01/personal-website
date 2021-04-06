@@ -1,0 +1,21 @@
+---
+layout: base
+permalink: /resume/
+---
+
+<div class="container">
+  <div class="pdf-viewer" id="adobe-dc-view"></div>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function () {
+      const adobeDCView = new AdobeDC.View({ clientId: "{{ meta.pdfClientId }}", divId: "adobe-dc-view" });
+      adobeDCView.previewFile(
+        {
+          content: { location: { url: "/assets/other/resume.pdf" } },
+          metaData: { fileName: "resume.pdf" },
+        },
+        { embedMode: "IN_LINE" }
+      );
+    });
+  </script>
+</div>

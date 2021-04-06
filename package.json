@@ -1,0 +1,21 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal website of James Randolph",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ELEVENTY_ENV=development eleventy --serve",
+    "build": "npm run clean && ELEVENTY_ENV=production eleventy",
+    "clean": "del-cli dist"
+  },
+  "author": "James Randolph",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.8.2",
+    "critical": "^3.0.0",
+    "del-cli": "^3.0.1",
+    "html-minifier": "^4.0.0",
+    "sass": "^1.32.8"
+  }
+}

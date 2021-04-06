@@ -1,0 +1,29 @@
+@use "../utils/media";
+
+.socials {
+  display: flex;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  &__icon {
+    display: flex;
+    fill: var(--color-label);
+    margin: 0 8px 8px;
+
+    svg {
+      height: 1.25rem;
+      padding: 0.25rem;
+    }
+
+    @include media.above(sm) {
+      margin-bottom: 0;
+
+      &:last-of-type {
+        margin-right: -0.25rem;
+      }
+    }
+  }
+}

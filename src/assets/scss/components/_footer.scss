@@ -1,0 +1,19 @@
+@use "../utils/media";
+
+.footer {
+  font-size: 14px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 80px;
+  background-color: var(--color-secondary-bg);
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include media.below(sm) {
+      flex-direction: column-reverse;
+    }
+  }
+}

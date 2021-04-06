@@ -1,0 +1,18 @@
+---
+layout: base
+permalink: /
+---
+
+<div class="container">
+  <section class="project-covers">
+    {% for project in collections.project %}
+    <a class="project-cover" href="{{ project.url }}">
+      <div class="project-cover__image-wrap">{% image project.data.image, "", "project-cover__image" %}</div>
+      <div class="project-cover__details-wrap">
+        <div class="project-cover__title">{{ project.data.title }}</div>
+        <div class="project-cover__subtitle">{{ project.data.subtitle.short }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </section>
+</div>
