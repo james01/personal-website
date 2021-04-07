@@ -1,0 +1,16 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: var(--color-bg);
+  background-color: var(--color-label);
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-variant-caps: all-small-caps;
+  text-decoration: none;
+  padding: 12px 24px;
+}

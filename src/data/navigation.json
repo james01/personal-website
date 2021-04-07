@@ -8,10 +8,5 @@
     "label": "Resume",
     "folder": "resume",
     "url": "/resume/"
-  },
-  {
-    "label": "Bookshelf",
-    "folder": "bookshelf",
-    "url": "/bookshelf/"
   }
 ]
