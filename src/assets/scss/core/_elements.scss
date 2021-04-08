@@ -1,3 +1,5 @@
+@use "../utils/media";
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -13,4 +15,9 @@
   font-variant-caps: all-small-caps;
   text-decoration: none;
   padding: 12px 24px;
+
+  @include media.below(sm) {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+  }
 }

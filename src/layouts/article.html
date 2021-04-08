@@ -3,10 +3,4 @@ layout: base
 date: Last Modified
 ---
 
-<article role="article" class="article container">
-  <header class="article__header readable-width">
-    <h1 class="article__title">{{ title }}</h1>
-    <p class="article__subtitle">{{ subtitle.long }}</p>
-  </header>
-  <div class="article__content">{{ content | safe }}</div>
-</article>
+<article role="article" class="article container">{{ content | safe }}</article>
