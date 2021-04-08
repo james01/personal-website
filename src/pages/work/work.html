@@ -5,7 +5,7 @@ permalink: /
 
 <div class="container">
   <section class="project-covers">
-    {% for project in collections.project %}
+    {% assign projects = collections.project | reverse %} {% for project in projects %}
     <a class="project-cover" href="{{ project.url }}">
       <div class="project-cover__image-wrap">{% image project.data.image, "", "project-cover__image" %}</div>
       <div class="project-cover__details-wrap">
