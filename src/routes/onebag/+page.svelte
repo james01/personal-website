@@ -42,7 +42,7 @@
 					of the links.
 				</p>
 			</div>
-			<hr class="dark:border-gray-700 mt-16 border-gray-200" />
+			<hr class="mt-16 border-gray-200 dark:border-gray-700" />
 			<GearList title="Storage">
 				<GearItem name="Aer Travel Pack 3 X-Pac" href="https://aersf.com/products/travel-pack-3-x-pac">
 					<p>
@@ -190,12 +190,12 @@
 				</GearItem>
 			</GearList>
 			<GearList title="Toiletries">
-				<div class="body-text">
+				<svelte:fragment slot="intro">
 					<p>
 						Aside from what&rsquo;s listed here, most of my toiletries are generic. I restock at grocery stores whenever I find a section of travel-sized
 						products.
 					</p>
-				</div>
+				</svelte:fragment>
 				<GearItem name="Philips OneBlade" href="https://amzn.to/3WtJn27">
 					<p>
 						I like this shaver quite a lot. It&rsquo;s small, lightweight, and cuts nicely without any irritation. The blade is removable and comes with
