@@ -17,12 +17,12 @@
 			<header>
 				<a class="flex items-center space-x-1.5" href="/" rel="home" aria-label="Go To Homepage">
 					<img class="relative -top-px h-4 w-4 rounded-full" src={profile} alt="Profile" />
-					<span class="font-bold">James Randolph</span>
+					<span class="font-semibold">James Randolph</span>
 				</a>
-				<h1 class="mt-16 text-4xl font-extrabold">{title}</h1>
-				<p class="mt-2 text-xs font-medium text-gray-400 sm:text-sm">Published on <time datetime="2024-08-07">August 7, 2024</time></p>
+				<h1 class="mt-5 text-4xl font-bold">{title}</h1>
+				<p class="mt-2 text-xs text-gray-400 sm:text-sm dark:text-gray-500">Published on <time datetime="2024-08-07">August 7, 2024</time></p>
 			</header>
-			<div class="mt-5 space-y-4 text-sm font-medium text-gray-500 sm:space-y-5 sm:text-lg">
+			<div class="body-text mt-5">
 				<p>
 					In January 2024 I put together some gear and spent the next 5 months traveling around the world. All I brought was a backpack and whatever I could fit
 					inside it.
@@ -42,7 +42,7 @@
 					of the links.
 				</p>
 			</div>
-			<hr class="mt-16 border-gray-200" />
+			<hr class="dark:border-gray-700 mt-16 border-gray-200" />
 			<GearList title="Storage">
 				<GearItem name="Aer Travel Pack 3 X-Pac" href="https://aersf.com/products/travel-pack-3-x-pac">
 					<p>
@@ -138,7 +138,7 @@
 				<GearItem name="iPhone 13" href="https://www.apple.com/iphone/">
 					<p>
 						Just about all my other tech is made by Apple. So is my phone. I have the normal version since I don&rsquo;t take enough photos to justify upgrading
-						to the better camera on the Pro.
+						to the Pro.
 					</p>
 				</GearItem>
 				<GearItem name="MOGICS Super Bagel" href="https://amzn.to/3WjbYH9">
@@ -177,8 +177,9 @@
 			<GearList title="Clothing">
 				<GearItem name="UNIQLO AIRism Boxer Briefs" href="https://www.uniqlo.com/us/en/products/E454326-000/">
 					<p>
-						These are great underwear. They&rsquo;re comfortable and keep me cool. They&rsquo;re also available in low-rise and seamless versions, but I prefer
-						the originals. The low-rise aren&rsquo;t as comfortable, and the seamless are a bit tighter and tend to get bunched up more easily.
+						These are great underwear. They&rsquo;re comfortable, and most importantly, they breathe. They&rsquo;re also available in low-rise and seamless
+						versions, but I prefer the originals. The low-rise aren&rsquo;t as comfortable, and the seamless are a bit tighter and tend to get bunched up more
+						easily.
 					</p>
 				</GearItem>
 				<GearItem name="UNIQLO Cotton Boxer Briefs" href="https://www.uniqlo.com/us/en/products/E464311-000/" used={false}>
@@ -189,27 +190,32 @@
 				</GearItem>
 			</GearList>
 			<GearList title="Toiletries">
+				<div class="body-text">
+					<p>
+						Aside from what&rsquo;s listed here, most of my toiletries are generic. I restock at grocery stores whenever I find a section of travel-sized
+						products.
+					</p>
+				</div>
 				<GearItem name="Philips OneBlade" href="https://amzn.to/3WtJn27">
 					<p>
-						I like this shaver more than I thought I would. It&rsquo;s small, lightweight, and cuts nicely without any irritation. The blade is removable and
-						comes with multiple attachments so I can use it to cut body hair as well. It charges with a USB cable (though not USB-C) and I&rsquo;ve been using
-						it for over six months on a single charge. Replacement blades are expensive, but for me, they&rsquo;re worth the price.
+						I like this shaver quite a lot. It&rsquo;s small, lightweight, and cuts nicely without any irritation. The blade is removable and comes with
+						multiple attachments so I can use it to cut body hair as well as facial. It charges with a USB cable (though not USB-C) and I&rsquo;ve been using it
+						for over six months on a single charge. Replacement blades are expensive, but for me, they&rsquo;re worth the price.
 					</p>
 				</GearItem>
 				<GearItem name="Crystal Mineral Deodorant" href="https://amzn.to/4d4ZAl8">
 					<p>
 						I bought this on a whim because it was the smallest deodorant stick available at the store, but I ended up really liking it. It&rsquo;s basically
-						just a block of potassium mineral salt with no other ingredients. The downside of this is that while it prevents new odors, it doesn&rsquo;t mask
-						existing ones, so I found I had to apply it liberally after every shower for it to work. What I like about it though is how compact it is. I only
-						had to replace it after I dropped it and it shattered, but otherwise it would have probably lasted several years. Plus, it doesn&rsquo;t stain my
-						shirts.
+						just a block of potassium mineral salt with no other ingredients. The downside is that while it prevents new odors, it doesn&rsquo;t mask existing
+						ones, so I found I had to apply it after every shower for it to work. The upside is how compact it is. I only had to replace it after I dropped it
+						and it shattered, but otherwise it probably would have lasted several years. Plus, it doesn&rsquo;t stain my shirts.
 					</p>
 				</GearItem>
 				<GearItem name="Round Foldable Hairbrush (with Mirror)" href="https://amzn.to/3WIKiwQ">
 					<p>
 						Unironically this might be one of my best purchases. It&rsquo;s cheap in both price and quality, but the design is perfect for traveling. The
 						bristles collapse into themselves and the whole thing folds in half, so it fits nicely into the pocket of a dopp kit. Plus, there&rsquo;s a mirror
-						on the inside of the lid which is always useful to have.
+						inside the lid which is always useful to have.
 					</p>
 				</GearItem>
 			</GearList>
