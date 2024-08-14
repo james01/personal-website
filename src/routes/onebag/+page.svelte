@@ -32,9 +32,14 @@
 					Southeast Asia and the Middle East. Two common cutoffs are 7kg and 10kg&mdash;7kg isn&rsquo;t enough, but 10kg is the sweet spot.
 				</p>
 				<p>
-					Finally, as a disclaimer, some of the links on this page are affiliate links. This means I make a small percentage of the sale if you click one and
-					buy something (it doesn&rsquo;t cost you anything extra). If you found this list helpful, consider supporting me by buying something through one of
-					the links.
+					As a disclaimer, some of the links on this page are affiliate links. This means I make a small percentage of the sale if you click one and buy
+					something (it doesn&rsquo;t cost you anything extra). If you found this list helpful, consider supporting me by buying something through one of the
+					links.
+				</p>
+				<p>
+					Finally, consider checking out Jeremy Maluf&rsquo;s
+					<a class="underline" href="https://jeremymaluf.com/onebag/" target="_blank" rel="noopener noreferrer">website</a>
+					as well. I took a lot of inspiration from his packing list. Maybe you will, too.
 				</p>
 			</div>
 			<div class="-mx-5 mt-10 lg:-mx-24">
@@ -119,6 +124,12 @@
 							This is the backpack I originally planned to take with me. I bought it because it comes with a detachable daypack and has shoulder straps that
 							stow away when checking in the bag on an airplane. I ended up returning it because it was too big and overcomplicated. The problems these features
 							solve turned out to have simpler solutions, or weren&rsquo;t big issues in the first place.
+						</p>
+					</GearItem>
+					<GearItem name="Aer City Sling 2 X-Pac" href="https://aersf.com/products/city-sling-2-x-pac" used={false}>
+						<p>
+							I&rsquo;m just not a fan of slings. They feel awkward to carry and they can&rsquo;t really hold that much. I originally bought this with the goal
+							of doubling its use as a tech pouch, but I ended up returning it. It&rsquo;s a well-built product but it&rsquo;s not for me.
 						</p>
 					</GearItem>
 					<GearItem name="Allett Travel Wallet | Nylon Edition" href="https://www.all-ett.com/products/travel-wallet" used={false}>
@@ -234,6 +245,12 @@
 						<p>
 							I like to pack one long-sleeve t-shirt for cold days when I need an extra layer. I picked this one up for only $6 when I was in Japan. In general
 							I prefer short sleeves, so on warmer days I just roll them up.
+						</p>
+					</GearItem>
+					<GearItem name="Charles Tyrwhitt Denim Shirt" href="https://www.charlestyrwhitt.com/us/denim-shirt---denim-blue/CSR0964DEN.html">
+						<p>
+							I like having one nice shirt with me for special occasions. This shirt does need to be ironed every now and then, which is kind of annoying, but
+							it&rsquo;s not as big of a deal as I was expecting. As long as I roll it up carefully it tends to avoid wrinkles.
 						</p>
 					</GearItem>
 					<GearItem name="Lululemon ABC Slim-Fit Trouser Warpstreme" href="https://shop.lululemon.com/p/mens-trousers/ABC-Slim-Trouser-32/_/prod11500060">
