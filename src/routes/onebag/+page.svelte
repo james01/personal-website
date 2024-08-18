@@ -38,8 +38,8 @@
 				</p>
 				<p>
 					Finally, consider checking out Jeremy Maluf&rsquo;s
-					<a class="underline" href="https://jeremymaluf.com/onebag/" target="_blank" rel="noopener noreferrer">website</a>
-					as well. I took a lot of inspiration from his packing list. Maybe you will, too.
+					<a class="underline" href="https://jeremymaluf.com/onebag/" target="_blank" rel="noopener noreferrer">packing list</a>
+					as well. I found it to be a helpful resource when preparing my own.
 				</p>
 			</div>
 			<div class="-mx-5 mt-10 lg:-mx-24">
@@ -357,14 +357,9 @@
 							</GearItem>
 							<GearItem name="Robinhood Gold Card" href="https://robinhood.com/creditcard?referral_code=f12a49b3" inner={true}>
 								<p>
-									This card is new and I only just signed up for the waitlist, but it gives 3% cash back on all categories, with no foreign transaction fees. As
-									long as it lasts, this makes it the best credit card available right now, let alone the best travel card. It does require a subscription to
-									Robinhood Gold, which is $5 per month, but this also gives access to a higher interest rate on uninvested cash, which can easily pay for
-									itself.
-								</p>
-								<p>
-									In general I&rsquo;m not a fan of the way the Robinhood app treats the stock market like a game, but they offer really competitive numbers on
-									a lot of their products, so I try to take advantage as much as I can.
+									This card is new and I&rsquo;m still on the waitlist for it, but it gives 3% cash back in all categories, with no foreign transaction fees.
+									Assuming it lasts, I&rsquo;ll consider making it my main credit card. (Disclaimer: If you sign up with my link I&rsquo;ll get off the waitlist
+									faster.)
 								</p>
 							</GearItem>
 							<GearItem name="Charles Schwab Debit Card" href="https://www.schwab.com/checking/debit-card" inner={true}>
