@@ -109,8 +109,8 @@
 					<GearItem name="Foldable Tote Bag" href="https://www.orbitkey.com/products/foldable-tote-bag">
 						<p>
 							I like to buy groceries when I&rsquo;ll be staying in the same place for a while so this is essential. I got mine for free with a purchase from
-							Orbitkey, but any brand should work as long as it isn&rsquo;t overengineered. All it needs to do is hold a few groceries, or maybe a beach towel
-							and sunscreen for an impromptu trip to the beach.
+							Orbitkey, but any brand should work as long as it isn&rsquo;t overengineered. All it needs to do is hold a few groceries, or maybe a towel and
+							sunscreen for an impromptu trip to the beach.
 						</p>
 					</GearItem>
 					<GearItem name="Ziploc Bag (to hold my passport)" href="https://amzn.to/4dJyctc">
@@ -128,8 +128,8 @@
 					</GearItem>
 					<GearItem name="Aer City Sling 2 X-Pac" href="https://aersf.com/products/city-sling-2-x-pac" used={false}>
 						<p>
-							I&rsquo;m just not a fan of slings. They feel awkward to carry and they can&rsquo;t really hold that much. I originally bought this with the goal
-							of doubling its use as a tech pouch, but I ended up returning it. It&rsquo;s a well-built product but it&rsquo;s not for me.
+							I&rsquo;m just not a fan of slings. They feel awkward to carry and can&rsquo;t really hold that much. I originally bought this with the goal of
+							doubling its use as a tech pouch, but I ended up returning it. It&rsquo;s a well-built product but it&rsquo;s not for me.
 						</p>
 					</GearItem>
 					<GearItem name="Allett Travel Wallet | Nylon Edition" href="https://www.all-ett.com/products/travel-wallet" used={false}>
@@ -249,7 +249,7 @@
 					</GearItem>
 					<GearItem name="Charles Tyrwhitt Denim Shirt" href="https://www.charlestyrwhitt.com/us/denim-shirt---denim-blue/CSR0964DEN.html">
 						<p>
-							I like having one nice shirt with me for special occasions. This shirt does need to be ironed every now and then, which is kind of annoying, but
+							I like having one nice shirt with me for special occasions. This shirt needs to be ironed every now and then, which is kind of annoying, but
 							it&rsquo;s not as big of a deal as I was expecting. As long as I roll it up carefully it tends to avoid wrinkles.
 						</p>
 					</GearItem>
@@ -330,9 +330,9 @@
 					</GearItem>
 					<GearItem name="humangear GoToob+ (Large)" href="https://amzn.to/4dImizG">
 						<p>
-							I use these refillable tubes to hold my shampoo and whatnot. I like that they&rsquo;re the maximum size allowed on an airplane, and they&rsquo;re
-							made from a material that feels really good in the hand. I don&rsquo;t think I would buy this brand again, though. They&rsquo;re too expensive,
-							and their teardrop shape makes them awkward to pack.
+							I use these refillable tubes to hold my shampoo and whatnot. I like that they&rsquo;re the maximum size allowed on an airplane, and that
+							they&rsquo;re made from a material that feels really good in the hand. I don&rsquo;t think I would buy this brand again, though. They&rsquo;re too
+							expensive, and their teardrop shape makes them awkward to pack.
 						</p>
 					</GearItem>
 				</GearList>
@@ -365,7 +365,7 @@
 							<GearItem name="Charles Schwab Debit Card" href="https://www.schwab.com/checking/debit-card" inner={true}>
 								<p>
 									Charles Schwab has the only debit card I know of that offers unlimited international ATM fee reimbursements. This means I can withdraw money
-									from any ATM in the world for free. I cannot overstate how useful this is when staying in a cash-based foreign country.
+									from any ATM in the world for free&mdash;very useful when staying in a cash-based foreign country.
 								</p>
 							</GearItem>
 						</dl>
