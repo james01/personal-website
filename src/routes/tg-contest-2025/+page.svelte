@@ -126,7 +126,13 @@
 				<p>Here&rsquo;s how it works:</p>
 			</div>
 			<div class="-mx-5 mt-10 sm:mx-0 lg:-mx-24">
-				<img class="w-full" src={metaballs_png} alt="" width="1920" height="480" />
+				<img
+					class="w-full"
+					src={metaballs_png}
+					alt="Diagram showing the steps for creating metaballs"
+					width="1920"
+					height="480"
+				/>
 			</div>
 			<div class="body-text mt-10">
 				<p>
@@ -194,7 +200,13 @@
 				</p>
 			</div>
 			<div class="-mx-5 mt-10 sm:mx-0 lg:-mx-24">
-				<img class="w-full" src={uiswitch_png} alt="" width="1920" height="480" />
+				<img
+					class="w-full"
+					src={uiswitch_png}
+					alt="Diagram showing the steps to apply the metaball technique to a UISwitch"
+					width="1920"
+					height="480"
+				/>
 			</div>
 			<div class="body-text mt-10">
 				<p>
@@ -241,7 +253,13 @@
 				</p>
 			</div>
 			<div class="-mx-5 mt-10 sm:mx-0">
-				<img class="w-full" src={uiswitch_copy_png} alt="" width="1280" height="480" />
+				<img
+					class="w-full"
+					src={uiswitch_copy_png}
+					alt="A comparison of the thumb view with normal blend mode vs copy blend mode"
+					width="1280"
+					height="480"
+				/>
 			</div>
 			<div class="body-text mt-10">
 				<p>
@@ -311,7 +329,13 @@
 				<p>Let&rsquo;s revisit the metaball example to see what I mean:</p>
 			</div>
 			<div class="-mx-5 mt-10 sm:mx-0 lg:-mx-24">
-				<img class="w-full" src={metaballs_color_png} alt="" width="1920" height="480" />
+				<img
+					class="w-full"
+					src={metaballs_color_png}
+					alt="A diagram showing how the metaball effect doesn't preserve colors"
+					width="1920"
+					height="480"
+				/>
 			</div>
 			<div class="body-text mt-10">
 				<p>
@@ -336,7 +360,13 @@
 				</p>
 			</div>
 			<div class="-mx-5 mt-10 sm:mx-0 lg:-mx-24">
-				<img class="w-full" src={tab_bars_png} alt="" width="1608" height="381" />
+				<img
+					class="w-full"
+					src={tab_bars_png}
+					alt="A comparison of the custom tab bar and the native tab bar"
+					width="1608"
+					height="381"
+				/>
 			</div>
 			<div class="body-text mt-10">
 				<p>
