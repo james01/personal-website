@@ -1,6 +1,7 @@
 <script lang="ts">
 	import profile from '$lib/assets/profile.jpg';
-	import uiswitch_mp4 from '$lib/assets/tg-contest-2025/uiswitch.mp4';
+	import liquid_glass_mp4 from '$lib/assets/tg-contest-2025/liquid_glass.mp4';
+	import tab_bar_mp4 from '$lib/assets/tg-contest-2025/tab_bar.mp4';
 	import metaballs_png from '$lib/assets/tg-contest-2025/metaballs.png';
 	import uiswitch_png from '$lib/assets/tg-contest-2025/uiswitch.png';
 	import uiswitch_copy_png from '$lib/assets/tg-contest-2025/uiswitch_copy.png';
@@ -62,16 +63,26 @@
 					> on Github.
 				</p>
 			</div>
-			<div class="mt-10">
+			<div class="-mx-5 mt-10 sm:mx-0">
 				<video
 					class="w-full"
-					src={uiswitch_mp4}
+					src={liquid_glass_mp4}
 					autoplay
 					muted
 					loop
 					playsinline
-					width="398"
-					height="270"
+					width="816"
+					height="720"
+				></video>
+				<video
+					class="mt-10 w-full"
+					src={tab_bar_mp4}
+					autoplay
+					muted
+					loop
+					playsinline
+					width="670"
+					height="200"
 				></video>
 			</div>
 			<h2 class="mt-8 text-2xl font-bold">The Problem</h2>
