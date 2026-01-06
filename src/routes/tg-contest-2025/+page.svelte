@@ -63,7 +63,7 @@
 					> on Github.
 				</p>
 			</div>
-			<div class="-mx-5 mt-10 sm:mx-0">
+			<div class="mt-10">
 				<video
 					class="w-full"
 					src={liquid_glass_mp4}
@@ -125,7 +125,7 @@
 				</p>
 				<p>Here&rsquo;s how it works:</p>
 			</div>
-			<div class="-mx-5 mt-10 sm:mx-0 lg:-mx-24">
+			<div class="mt-10 lg:-mx-24">
 				<img
 					class="w-full"
 					src={metaballs_png}
@@ -199,7 +199,7 @@
 					whole process:
 				</p>
 			</div>
-			<div class="-mx-5 mt-10 sm:mx-0 lg:-mx-24">
+			<div class="mt-10 lg:-mx-24">
 				<img
 					class="w-full"
 					src={uiswitch_png}
@@ -252,7 +252,7 @@
 					effectively cutting a hole in the track below it.
 				</p>
 			</div>
-			<div class="-mx-5 mt-10 sm:mx-0">
+			<div class="mt-10">
 				<img
 					class="w-full"
 					src={uiswitch_copy_png}
@@ -328,7 +328,7 @@
 				</p>
 				<p>Let&rsquo;s revisit the metaball example to see what I mean:</p>
 			</div>
-			<div class="-mx-5 mt-10 sm:mx-0 lg:-mx-24">
+			<div class="mt-10 lg:-mx-24">
 				<img
 					class="w-full"
 					src={metaballs_color_png}
@@ -359,7 +359,7 @@
 					our variable blur and shading to the entire hierarchy.
 				</p>
 			</div>
-			<div class="-mx-5 mt-10 sm:mx-0 lg:-mx-24">
+			<div class="mt-10 lg:-mx-24">
 				<img
 					class="w-full"
 					src={tab_bars_png}
