@@ -426,12 +426,12 @@
 					</GearItem>
 				</GearList>
 				<GearList title="Toiletries">
-					<svelte:fragment slot="intro">
+					{#snippet intro()}
 						<p>
 							Aside from what&rsquo;s listed here, most of my toiletries are generic. I restock at
 							grocery stores whenever I find a section of travel-sized products.
 						</p>
-					</svelte:fragment>
+					{/snippet}
 					<GearItem name="Philips OneBlade" href="https://amzn.to/3WtJn27">
 						<p>
 							I like this shaver a lot. It&rsquo;s small, lightweight, and cuts nicely without any
