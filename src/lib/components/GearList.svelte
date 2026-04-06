@@ -13,7 +13,7 @@
 <div>
 	<h2 class="text-2xl font-bold">{title}</h2>
 	{#if intro}
-		<div class="body-text mb-6 mt-3">
+		<div class="body-text mt-3 mb-6">
 			{@render intro?.()}
 		</div>
 	{/if}
