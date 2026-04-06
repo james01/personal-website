@@ -8,7 +8,8 @@ export default {
 		colors: {
 			white: colors.white,
 			black: colors.black,
-			gray: colors.neutral
+			gray: colors.neutral,
+			yellow: colors.yellow
 		},
 		fontFamily: {
 			sans: ['Gabarito', ...defaultTheme.fontFamily.sans]
