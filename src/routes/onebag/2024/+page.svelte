@@ -2,8 +2,8 @@
 	import profile from '$lib/assets/profile.jpg';
 	import flat_lay_jpg from '$lib/assets/flat_lay_2024.jpg';
 	import flat_lay_avif from '$lib/assets/flat_lay_2024.avif';
-	import GearItem from '$lib/components/GearItem.svelte';
-	import GearList from '$lib/components/GearList.svelte';
+	import GearItem from './../GearItem.svelte';
+	import GearList from './../GearList.svelte';
 
 	const title = 'Onebag Travel';
 </script>

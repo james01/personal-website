@@ -40,8 +40,13 @@
 						target="_blank"
 						rel="noopener noreferrer">contest</a
 					>
-					to backport Liquid Glass to earlier versions of iOS. Having just shipped the first version
-					of an
+					to backport Liquid Glass to earlier versions of iOS (edit: I got
+					<a
+						class="underline"
+						href="https://contest.com/ios2025/entry7225"
+						target="_blank"
+						rel="noopener noreferrer">second place</a
+					>). Having just shipped the first version of an
 					<a
 						class="underline"
 						href="https://apple.co/4pAf72d"
