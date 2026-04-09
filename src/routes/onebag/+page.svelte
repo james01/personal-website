@@ -47,9 +47,10 @@
 					a freeing feeling.
 				</p>
 				<p>
-					Nothing here is sponsored or AI generated. Any Amazon links are affiliate links though,
-					which means I make a small percentage of the sale if you click one and buy something. It
-					costs you nothing extra.
+					As a disclaimer, some of the links here are affiliate links. That means I make a small
+					percentage of the sale if you click one and buy something (it doesn&rsquo;t cost you
+					anything extra). If you found this list helpful, consider supporting me by buying
+					something through one of the links.
 				</p>
 			</div>
 			<div class="-mx-5 mt-10 lg:-mx-24">
