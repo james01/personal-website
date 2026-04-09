@@ -1,14 +1,10 @@
 <script lang="ts">
 	import profile from '$lib/assets/profile.jpg';
-	import flat_lay_jpg from '$lib/assets/flat_lay_2026.jpg';
+	import FlatLayGallery from './FlatLayGallery.svelte';
 	import GearItem from './GearItem.svelte';
 	import GearList from './GearList.svelte';
-	import { setGearContext } from './gearContext';
 
 	const title = 'Onebag Travel';
-
-	const ctx = $state({ showRetired: true });
-	setGearContext(ctx);
 </script>
 
 {#snippet link(text: string, href: string)}
@@ -30,24 +26,24 @@
 				</a>
 				<h1 class="mt-5 text-4xl font-bold">{title}</h1>
 				<p class="mt-1.5 text-xs text-gray-400 sm:text-sm dark:text-gray-500">
-					Last updated on <time datetime="2026-04-02">April 2, 2026</time>
+					Last updated on <time datetime="2026-04-09">April 9, 2026</time>
 				</p>
 			</header>
 			<div class="body-text mt-5">
 				<p>
-					Since 2024 I&rsquo;ve been spending a lot of time traveling the world with just a
+					Since 2024 I&rsquo;ve been spending a lot of time traveling around the world with just a
 					backpack. This is often referred to as &ldquo;onebagging.&rdquo;
 				</p>
 				<p>
 					The more I&rsquo;ve been exposed to this type of travel the more I&rsquo;ve recognized
-					that there&rsquo;s an art to it. This list explains the thought process behind everything
-					I bring with me.
+					that there&rsquo;s an art to it. I put together this list to keep track of everything I
+					pack and the thought process behind it. It evolves with time.
 				</p>
 				<p>
 					Fully packed, my bag weighs about 7kg (15.4lbs). This means it counts as a personal item
-					on almost any flight in the world, and I can click &ldquo;no&rdquo; to every added expense
-					when buying a ticket. The bag goes under the seat in front of me, and I don&rsquo;t have
-					to worry about baggage carousels or running out of space in the overhead bins. It&rsquo;s
+					on almost any flight in the world, and I dodge all the extra expenses when buying a
+					ticket. The bag goes under the seat in front of me and I&rsquo;m good to go&mdash;no
+					worrying about baggage carousels or running out of space in the overhead bins. It&rsquo;s
 					a freeing feeling.
 				</p>
 				<p>
@@ -57,76 +53,54 @@
 				</p>
 			</div>
 			<div class="-mx-5 mt-10 lg:-mx-24">
-				<picture>
-					<!-- <source srcset={flat_lay_avif} type="image/avif" /> -->
-					<img class="w-full" src={flat_lay_jpg} alt="" width="1920" height="1536" />
-				</picture>
+				<FlatLayGallery />
 			</div>
 			<hr class="mt-10 border-gray-200 dark:border-gray-700" />
-			<label
-				class="mt-4 flex cursor-pointer items-center gap-2 text-sm text-gray-500 dark:text-gray-400"
-			>
-				<input type="checkbox" bind:checked={ctx.showRetired} />
-				Show retired items
-			</label>
 			<div class="mt-10 space-y-16">
 				<GearList title="Storage">
 					<GearItem
-						name="Almond Oak Expandable Travel Backpack 25L + 5L"
+						name="Almond Oak Expandable Travel Backpack"
 						href="https://almondoak.com/products/travelbag"
 					>
 						<p>
 							Almond Oak is a one-man company that makes the closest I&rsquo;ve found to the perfect
-							travel backpack. I love almost everything about it:
+							travel backpack.
 						</p>
-						<ul>
-							<li>Most importantly, it&rsquo;s extremely lightweight (855g / 1.86lbs).</li>
-							<li>It&rsquo;s small enough to be used as a personal item.</li>
-							<li>
-								It has a laptop compartment that has a false bottom, is accessed from the top, and
-								doesn&rsquo;t use Velcro (it&rsquo;s too loud).
-							</li>
-							<li>
-								The main compartment opens clamshell-style like a suitcase, with the hinge on the
-								long side of the pack. This uses less zipper (saves weight) and is more convenient
-								to lay flat than if the hinge were on the short side.
-							</li>
-							<li>
-								There&rsquo;s a mesh pocket in the main compartment that removes the need for a
-								packing cube.
-							</li>
-							<li>
-								The front pocket and laptop compartment have basic organization for chargers and
-								cables and whatnot.
-							</li>
-							<li>The Passport pocket is hidden and convenient to access.</li>
-							<li>
-								The top handle is slim enough to hang on a hook, like those in restroom stalls.
-							</li>
-							<li>
-								The zippers are easy to open (which usually isn&rsquo;t the case with waterproof
-								zippers) and are made of Hypalon, which is lightweight and doesn&rsquo;t jingle.
-							</li>
-							<li>
-								It does not have a hip belt, and the sternum strap is removable. For such a light
-								backpack, neither of these is necessary.
-							</li>
-							<li>It does not have load lifters, which look bad and don&rsquo;t help me.</li>
-							<li>The back panel does not cause my shirts to pill.</li>
-							<li>The design doesn&rsquo;t draw attention to itself.</li>
-							<li>It&rsquo;s not over-engineered and there are no more features than necessary.</li>
-						</ul>
-						<p>There are also a few things I don&rsquo;t like about the backpack:</p>
-						<ul class="list-disc pl-5">
-							<li>
-								The Passport pocket is a little tight. I wish the opening were half an inch longer.
-							</li>
-							<li>
-								I wish inside the front compartment there were two zippered pockets instead of just
-								one with a divider. I view the front compartment as a quick access pocket, and this
-								would make it just a little easier to get things into and out of it.
-							</li>
-						</ul>
+						<p>
+							It&rsquo;s extremely lightweight (855g / 1.86lbs) and small enough to be used as a
+							personal item on flights. It expands to 30L, which I think is the ideal size for
+							onebag travel, but I like how it can drop to 25L for use as a daypack.
+						</p>
+						<p>
+							I like how the main compartment opens clamshell-style like a suitcase, with the hinge
+							on the long side of the pack. This uses less zipper (saves weight) and is more
+							convenient to lay flat than if the hinge were on the short side. I also like that
+							there&rsquo;s a mesh pocket in the main compartment that removes the need for a
+							packing cube.
+						</p>
+						<p>
+							I like how the laptop compartment has a false bottom, is accessed from the top, and
+							doesn&rsquo;t use Velcro (which is too loud). I like that the bag has basic
+							organization for chargers and cables and whatnot, as well as a hidden pocket for a
+							passport.
+						</p>
+						<p>
+							I like that the top handle is slim enough to hang on a hook (like in a restroom stall)
+							and that the back panel doesn&rsquo;t cause my shirts to pill. I like that the zippers
+							are easy to open (which isn&rsquo;t usually the case with waterproof zippers) and that
+							they&rsquo;re made of Hypalon, which is lightweight and doesn&rsquo;t jingle.
+						</p>
+						<p>
+							I like that it doesn&rsquo;t have a hip belt or load lifters, and that the sternum
+							strap is removable. The backpack isn&rsquo;t overengineered and doesn&rsquo;t include
+							any features that aren&rsquo;t necessary.
+						</p>
+						<p>
+							Aside from the positives, there are two things I wish could be improved. For one, the
+							passport pocket is a little tight. I wish the opening were half an inch longer. And
+							second, I wish inside the front compartment there were two zippered pockets instead of
+							just one with a divider. This would make it easier to get things into and out of it.
+						</p>
 					</GearItem>
 					<GearItem name="Osprey Daylite Hanging Toiletry Kit" href="https://amzn.to/3PVCUgA">
 						<p>
@@ -161,7 +135,8 @@
 						<p>
 							This is the very first backpack I bought when planning my packing list. I originally
 							liked it because it has a detachable daypack and shoulder straps that stow away when
-							checked in as luggage. Both these needs go away when using a smaller backpack.
+							checked in as luggage. Neither of these things are necessary if you just use a smaller
+							bag to begin with.
 						</p>
 					</GearItem>
 					<GearItem
@@ -181,9 +156,9 @@
 						used={false}
 					>
 						<p>
-							This is a nice toiletry kit but what I said about Aer&rsquo;s Travel Pack applies here
-							as well: it&rsquo;s heavy and overengineered. I also don&rsquo;t like how the hook is
-							too small for a lot of towel racks.
+							This is a nice toiletry kit, but what I said about Aer&rsquo;s Travel Pack applies
+							here as well: it&rsquo;s heavy and overengineered. I also don&rsquo;t like how the
+							hook is too small for a lot of towel racks.
 						</p>
 					</GearItem>
 					<GearItem
@@ -192,8 +167,8 @@
 						used={false}
 					>
 						<p>
-							Packing cubes can be really helpful, but my backpack already has a built-in mesh
-							pocket for loose clothes. I use that instead now and it saves weight.
+							Packing cubes can be really helpful, but my backpack now has a built-in mesh pocket
+							for loose clothes. I use that instead and it saves weight.
 						</p>
 					</GearItem>
 					<GearItem
@@ -320,7 +295,7 @@
 						<p>
 							I&rsquo;m not loyal to any specific power bank, as long as it&rsquo;s small and uses
 							USB-C. This one checks both boxes. I think 5,000mAh is a good capacity. It&rsquo;s
-							just enough to prevent my phone from dying at a bad moment.
+							just enough to prevent my phone from dying at a bad moment, and no bulkier.
 						</p>
 					</GearItem>
 					<GearItem name="Apple AirPods Pro" href="https://amzn.to/48nPBXV">
@@ -349,7 +324,7 @@
 						<p>
 							I used to bring an AirTag when my backpack had a devoted slot for one, but in my new
 							bag there&rsquo;s nowhere to put it. An AirTag can be handy in a luggage mix-up, but
-							now that my bag&rsquo;s a personal item the chance of this is slim.
+							my bag fits under the seat now so the chance of this is slim.
 						</p>
 					</GearItem>
 				</GearList>
@@ -392,11 +367,35 @@
 					>
 						<p>
 							I&rsquo;ve been buying the majority of my shirts from Cuts Clothing lately. I&rsquo;m
-							tall so I appreciate the extra length, and I like the variety of colors they&rsquo;re
-							available in. The shirts are made of cotton, polyester, and spandex, and they have an
+							tall so I appreciate the extra length, and I like the variety of colors they have
+							available. The shirts are made of cotton, polyester, and spandex, and they have an
 							anti-odor treatment that embeds silver particles in the fabric. It seems to work, as
 							I&rsquo;ve worn these shirts for several days in a row without issue. I pack three of
 							them.
+						</p>
+					</GearItem>
+					<GearItem
+						name="Lululemon ABC Slim-Fit Trouser Warpstreme"
+						href="https://shop.lululemon.com/p/mens-trousers/ABC-Slim-Trouser-32/_/prod11500060"
+					>
+						<p>
+							Lululemon is known for yoga pants, but they make everyday pants, too. I like these
+							because they look dressy but feel like sweatpants. I&rsquo;m not too familiar with the
+							other materials they come in, but the Warpstreme has served me well.
+						</p>
+					</GearItem>
+					<GearItem name="Comfortable Gym Shorts/Bathing Suit">
+						This is an important one. I have an old pair and I&rsquo;m not sure what brand they are,
+						but they&rsquo;re comfortable and can be used as either gym shorts for working out or a
+						bathing suit for swimming. I also wear them while doing laundry and whenever I&rsquo;ll
+						be staying inside all day.
+					</GearItem>
+					<GearItem name="Darn Tough Ultra Light No Show Sock" href="https://amzn.to/4coVbID">
+						<p>
+							I see these recommended a lot, and they&rsquo;re pretty nice. They&rsquo;re made of
+							merino wool so I can get a few uses out of them before laundry day. They&rsquo;re
+							pretty durable and Darn Tough guarantees them for life&mdash;this means they&rsquo;ll
+							replace them for free if they develop a hole. I pack four of them.
 						</p>
 					</GearItem>
 					<GearItem
@@ -576,6 +575,14 @@
 							</GearItem>
 						</dl>
 					</GearItem>
+					<GearItem name="Cheap Sunglasses from Amazon" href="https://amzn.to/4cwYgcV">
+						<p>
+							Especially while traveling, it&rsquo;s so easy to destroy a pair of sunglasses that I
+							prefer to buy cheap ones off Amazon. Even so, I&rsquo;ve had pairs for years that are
+							still holding up. One of them came with a carrying case, and to save space, I use it
+							to hold my Philips OneBlade razor as well as the glasses.
+						</p>
+					</GearItem>
 					<GearItem
 						name="Matador Ultralight Travel Towel (Large)"
 						href="https://www.matadorequipment.com/products/ultralight-travel-towel-large"
@@ -609,8 +616,8 @@
 					<GearItem name="Vapur Collapsible Bottle" href="https://amzn.to/4dhCZSs" used={false}>
 						<p>
 							It&rsquo;s not the best but this is the closest I&rsquo;ve found to an ideal travel
-							bottle. He packs flat and stands up on his own, but he likes to grow mold and cut my
-							finger when I open his weirdly designed cap.
+							bottle. It packs flat and stands up on its own, but likes to grow mold and cut my
+							finger when I open its weirdly designed cap.
 						</p>
 						<p>
 							I don&rsquo;t carry reusable bottles at all anymore, though. If I really need one

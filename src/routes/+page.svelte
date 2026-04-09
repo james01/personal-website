@@ -2,6 +2,16 @@
 	import profile from '$lib/assets/profile.jpg';
 	import app_store_screenshot from '$lib/assets/app_store_screenshot.png';
 	import Socials from '$lib/components/Socials.svelte';
+
+	interface Post {
+		name: string;
+		href: string;
+	}
+
+	const posts: Post[] = [
+		{ name: 'Onebag Travel', href: '/onebag' },
+		{ name: 'Backporting Liquid Glass', href: '/tg-contest-2025' }
+	];
 </script>
 
 <svelte:head>
@@ -24,12 +34,22 @@
 						rel="noopener noreferrer">app</a
 					>
 					on the App Store. At its
-					<a class="text-gray-800 underline dark:text-white" href={app_store_screenshot} target="_blank" rel="noopener noreferrer">peak</a>
+					<a
+						class="text-gray-800 underline dark:text-white"
+						href={app_store_screenshot}
+						target="_blank"
+						rel="noopener noreferrer">peak</a
+					>
 					it was the #1 paid app in the US.
 				</p>
-				<p>
-					I spent five months traveling around the world. All I brought was a <a class="text-gray-800 underline dark:text-white" href="/onebag">backpack</a>.
-				</p>
+				<p>Here&rsquo;s some stuff I&rsquo;ve written:</p>
+				<ul>
+					{#each posts as post}
+						<li>
+							<a class="text-gray-800 underline dark:text-white" href={post.href}>{post.name}</a>
+						</li>
+					{/each}
+				</ul>
 				<p>My email is jwrand16@gmail.com.</p>
 			</div>
 			<div class="mt-8 text-gray-500">

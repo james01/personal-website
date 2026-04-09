@@ -1,12 +1,12 @@
 <script lang="ts">
 	import profile from '$lib/assets/profile.jpg';
-	import liquid_glass_mp4 from '$lib/assets/tg-contest-2025/liquid_glass.mp4';
-	import tab_bar_mp4 from '$lib/assets/tg-contest-2025/tab_bar.mp4';
-	import metaballs_png from '$lib/assets/tg-contest-2025/metaballs.png';
-	import uiswitch_png from '$lib/assets/tg-contest-2025/uiswitch.png';
-	import uiswitch_copy_png from '$lib/assets/tg-contest-2025/uiswitch_copy.png';
-	import metaballs_color_png from '$lib/assets/tg-contest-2025/metaballs_color.png';
-	import tab_bars_png from '$lib/assets/tg-contest-2025/tab_bars.png';
+	import liquid_glass_mp4 from './liquid_glass.mp4';
+	import tab_bar_mp4 from './tab_bar.mp4';
+	import metaballs_png from './metaballs.png';
+	import uiswitch_png from './uiswitch.png';
+	import uiswitch_copy_png from './uiswitch_copy.png';
+	import metaballs_color_png from './metaballs_color.png';
+	import tab_bars_png from './tab_bars.png';
 
 	const title = 'Backporting Liquid Glass';
 </script>
@@ -34,33 +34,24 @@
 			</header>
 			<div class="body-text mt-5">
 				<p>
-					Telegram recently hosted a <a
+					I recently participated in a <a
 						class="underline"
 						href="https://t.me/contest/436"
 						target="_blank"
 						rel="noopener noreferrer">contest</a
 					>
-					to backport Liquid Glass to earlier versions of iOS (edit: I got
+					hosted by Telegram to backport Liquid Glass to earlier versions of iOS (edit: I got
 					<a
 						class="underline"
 						href="https://contest.com/ios2025/entry7225"
 						target="_blank"
 						rel="noopener noreferrer">second place</a
-					>). Having just shipped the first version of an
-					<a
-						class="underline"
-						href="https://apple.co/4pAf72d"
-						target="_blank"
-						rel="noopener noreferrer">app</a
-					> I&rsquo;d been working on, I had the opportunity to develop a solution.
+					>).
 				</p>
 				<p>
-					The deadline was the day after Christmas, which made for a tight timeline, but overall
-					I&rsquo;m quite happy with the result.
-				</p>
-				<p>
-					I&rsquo;ll go over some of the more interesting parts of the implementation below, but you
-					can check out the full <a
+					Despite a tight timeline being due the day after Christmas, I&rsquo;m happy with what I
+					was able to submit. I think my approach is particularly innovative and I discuss it below.
+					You can check out the full <a
 						class="underline"
 						href="https://github.com/james01/Telegram-iOS"
 						target="_blank"
