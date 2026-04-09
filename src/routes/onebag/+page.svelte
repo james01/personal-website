@@ -116,7 +116,10 @@
 							toothbrush.
 						</p>
 					</GearItem>
-					<GearItem name="Nanobag Pack & Nanobag Tote Bag" href="https://amzn.to/41hk4TN">
+					<GearItem
+						name="Nanobag Pack & Nanobag Tote Bag"
+						href="https://www.amazon.com/dp/B0D5J67PCP?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2FNUWA61SVYGS&linkCode=tr1&tag=jamesrandolph-20&linkId=amzn1.campaign.2FNUWA61SVYGS_1775753708284"
+					>
 						<p>
 							As the name suggests, Nanobag makes extremely lightweight bags that are small enough
 							to fit in your pocket. They sell a few different types of bags but they&rsquo;re all
@@ -507,7 +510,10 @@
 							thing. I mostly use them to cut pieces of hydrocolloid tape.
 						</p>
 					</GearItem>
-					<GearItem name="Hydrocolloid Tape" href="https://amzn.to/4tnBKce">
+					<GearItem
+						name="Hydrocolloid Tape"
+						href="https://www.amazon.com/dp/B0FKHNXNHC?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.ONUR86YO0QRY&linkCode=tr1&tag=jamesrandolph-20&linkId=amzn1.campaign.ONUR86YO0QRY_1775753456195"
+					>
 						<p>
 							A roll of hydrocolloid tape is super versatile and takes up very little space. Pieces
 							can be cut to size and used as bandages, blister pads, or pimple patches. I keep the
@@ -576,7 +582,10 @@
 							</GearItem>
 						</dl>
 					</GearItem>
-					<GearItem name="Cheap Sunglasses from Amazon" href="https://amzn.to/4cwYgcV">
+					<GearItem
+						name="Cheap Sunglasses from Amazon"
+						href="https://www.amazon.com/dp/B0D83PV6GP?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1D5DCK695HE6Y&linkCode=tr1&tag=jamesrandolph-20&linkId=amzn1.campaign.1D5DCK695HE6Y_1775753760364"
+					>
 						<p>
 							Especially while traveling, it&rsquo;s so easy to destroy a pair of sunglasses that I
 							prefer to buy cheap ones off Amazon. Even so, I&rsquo;ve had pairs for years that are
