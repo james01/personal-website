@@ -16,6 +16,14 @@
 
 <svelte:head>
 	<title>James Randolph</title>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "James Randolph",
+			"url": "https://jamesrandolph.me"
+		}
+	</script>
 </svelte:head>
 
 <main class="my-16 sm:my-32">
